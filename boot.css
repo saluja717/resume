@@ -96,6 +96,65 @@ b
 	font-variant-caps: small-caps;
 	text-align: center;
 }
+
+  #mark::after
+    {
+      content: "";
+      position: absolute;
+      width:50px;
+      height: 20px;
+      margin-left: 2px;
+      border-top:5px solid black;
+      top: 25px;
+    }
+      #mark1::after
+    {
+      content: "";
+      position: absolute;
+      width:50px;
+      height:20px;
+      
+      border-top:5px solid black;
+      top: 25px;
+    }
+     #mark3::after
+    {
+      content: "";
+      position: absolute;
+      width:50px;
+      height:20px;
+      margin-left: 3px;
+      border-top:5px solid black;
+      top: 25px;
+    }
+    #clean::after
+    {
+      content: "";
+      display: none;
+    }
+    .property
+    {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+         margin-bottom: 40px;
+      justify-content: center;
+    
+    }   
+    #mark
+    {
+      margin-right: 50px;
+    }
+     #mark1
+    {
+      margin-right: 53px;
+    }
+     #mark3
+    {
+      margin-right: 52px;
+    }
+
+
 @media screen and (max-width: 311px)
 {
 	#check
